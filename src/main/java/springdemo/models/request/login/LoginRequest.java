@@ -1,10 +1,14 @@
-package springdemo.models;
+package springdemo.models.request.login;
 
 public class LoginRequest {
 
 	private String userName;
 	private String password;
 	private String source;
+	
+	public LoginRequest() {
+		
+	}
 	
 	public String getUserName() {
 		return userName;

@@ -9,10 +9,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping("/hello")
 public class HelloController {
 
-	@RequestMapping(method = RequestMethod.POST)
 	@ResponseBody
+	@RequestMapping(method = RequestMethod.GET)
 	public String hello() {
-		System.out.println("Say hello !!!");
-		return "Hello!!!";
+		return "Murali!!!";
 	}
 }
