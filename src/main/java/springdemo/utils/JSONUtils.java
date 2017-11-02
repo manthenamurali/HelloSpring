@@ -14,8 +14,6 @@ public class JSONUtils {
 			return null;
 		}
 
-		System.out.println("Json request = " + jsonRequest);
-		
 		Gson gson = new Gson();
 		T jsonModel = (T) gson.fromJson(jsonRequest, responseType);
 		return jsonModel;

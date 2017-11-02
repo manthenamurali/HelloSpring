@@ -11,7 +11,6 @@ public class ValidationUtils {
 			return false;
 		}
 		
-		System.out.println("final = " + email.contains("@"));
 		return (email.contains("@"));
 	}
 }

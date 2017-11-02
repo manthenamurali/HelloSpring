@@ -9,6 +9,4 @@ public class MyLogger {
 	public static void info(String info) {
 		mLogger.info(info);
 	}
-	
-	
 }
